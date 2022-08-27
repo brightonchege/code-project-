@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: rgb(84, 64, 87);
+    color: rgb(228, 249, 249);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    background-image: url(download.jpg);
+}
+
+
+/*  the nav bar code  top   top   top top   topp   
+tyf jdfi5d
+hgfjc6r76rc
+sgwuta vu tc*/
+
+.top {
+    width: 100%;
+}
+
+.top span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-size: 30;
+    border-radius: 50%;
+}
+
+.top span:hover {
+    cursor: pointer;
+}
+
+nav h1 {
+    font-size: 40;
+    font-weight: bold;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    align-content: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    font-size: 20;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    font-weight: 500;
+}
+
+.iconn {
+    padding: 10px 10px;
+}
+
+li:hover a {
+    box-shadow: 0 0 5px red;
+    color: black;
+    background-color: rgb(187, 144, 152);
+    border-radius: 10px;
+    font-size: 22;
+}
+
+
+/*      the middle   middle middle
+
+
+
+code middlemiddle*/
+
+.tweet {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10%;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(134, 134, 218);
+    border: none;
+    margin-bottom: 15px;
+}
+
+div h1 {
+    padding-bottom: 10px;
+}
+
+p {
+    line-height: 1.4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    font-size: 20;
+}
+
+img {
+    width: 70%;
+    height: auto;
+}
+
+
+/*   th e last code for th
+
+last 
+last
+last
+
+
+
+e page the ladt page for th c*/
+
+.them {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coo {
+    padding: 10px;
+    background-color: rgb(68, 68, 98);
+    border: none;
+    animation: 10s sigg infinite;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@keyframes sigg {
+    0% {
+        background-color: blue;
+    }
+    20% {
+        background-color: rgb(32, 198, 207);
+    }
+    40% {
+        background-color: rgb(72, 97, 62);
+    }
+    60% {
+        background-color: rgb(227, 227, 219);
+    }
+    80% {
+        background-color: rgb(226, 119, 77);
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+
+/* sklll sectio 
+
+
+skill section
+*/
+
+.skills {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 100%;
+}
+
+.skills h3 {
+    font-size: 40;
+    font-family: sans-serif;
+    color: plum;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.skills p {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.ciclecontainer {
+    background-color: transparent;
+    height: 350px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 170px);
+    grid-template-rows: repeat(2, 170px);
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.ciclecontainer h3 {
+    color: rgb(60, 19, 19);
+    font-size: 28;
+}
+
+.cont1,
+.cont2,
+.cont3,
+.cont4,
+.cont5,
+.cont6,
+.cont7,
+.cont8,
+.cont8 {
+    background-color: plum;
+    border-radius: 50% 10% 40% 10%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.control {
+    background-color: transparent;
+    width: 200%;
+    border: none;
+    border-radius: 0% 60% 3% 60%;
+    font-size: 10;
+}
+
+.reachme {
+    background-color: rgb(86, 78, 78);
+    width: 100%;
+    padding: 40px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.contactinfo {}
